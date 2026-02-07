@@ -59,6 +59,7 @@ nav ul li a {
 nav ul li a:hover {
   background: #00000027;
   border-radius: 10px;
+  
 }
 
 .menu-png {
@@ -82,12 +83,12 @@ h1 {
   font-style: italic;
   color: white;
   border-radius: 20px;
-  background: #0000006c;
+  background: #0000008c;
   text-align: center;
   margin-top: 50px;
   padding: 30px;
   width: 100%;
-
+  box-shadow: 1px 0.5px 5px #00f82d4c;
 }
 /* mobile responsive */
 
@@ -97,7 +98,7 @@ h1 {
     line-height: 50px;
     margin-top: 20px;
     padding: 10px;
-    background: #2e2c2c7b;
+    background: #0000007b;
     color: #ffffffcc;
   }
 
