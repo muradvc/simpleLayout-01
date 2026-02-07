@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #11040df9;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* common class */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* */
+header {
+  background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 31%, #00f82d 120%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 120px;
+
+}
+
+nav ul {
+  display: flex;
+
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  white-space: nowrap;
+  color: aliceblue;
+  transition: 0.4s ease;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background: #00000027;
+  border-radius: 10px;
+}
+
+.menu-png {
+  display: none;
+}
+
+/* banner section */
+.banner-section {
+  background: url(Assects/img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+h1 {
+  color: wheat;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 100px;
+  font-style: italic;
+  color: white;
+  border-radius: 20px;
+  background: #0000006c;
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  width: 100%;
+
+}
+/* mobile responsive */
+
+@media screen and (max-width:576px) {
+  h1 {
+    font-size: 1.8rem;
+    line-height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    background: #2e2c2c7b;
+    color: #ffffffcc;
+  }
+
+  .banner-section {
+    height: auto;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .menu-png {
+    display: inline-block;
+  }
+
+  .menu-png img {
+    width: 40px;
+    height: auto;
+    margin-right: 50px;
+  }
+
+  nav ul {
+    display: none;
+
+  }
+}
