@@ -59,7 +59,7 @@ nav ul li a {
 nav ul li a:hover {
   background: #00000027;
   border-radius: 10px;
-  
+
 }
 
 .menu-png {
@@ -90,13 +90,14 @@ h1 {
   width: 100%;
   box-shadow: 1px 0.5px 5px #00f82d4c;
 }
+
 /* mobile responsive */
 
 @media screen and (max-width:576px) {
   h1 {
     font-size: 1.8rem;
     line-height: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 10px;
     background: #0000007b;
     color: #ffffffcc;
@@ -123,5 +124,9 @@ h1 {
   nav ul {
     display: none;
 
+  }
+
+  .container {
+    padding-top: 0;
   }
 }
