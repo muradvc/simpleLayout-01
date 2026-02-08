@@ -22,7 +22,7 @@ body {
 
 /* */
 header {
-  background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 31%, #00f82d 120%);
+  background: linear-gradient(45deg, #F7E93F 0%, #fb09b288 31%, #00f82d 120%);
 }
 
 nav {
@@ -75,6 +75,16 @@ nav ul li a:hover {
   height: 500px;
 }
 
+.banner{
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
 h1 {
   color: wheat;
   font-size: 3rem;
@@ -95,16 +105,19 @@ h1 {
 
 @media screen and (max-width:576px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     line-height: 50px;
-    margin-top: 15px;
     padding: 10px;
     background: #0000007b;
     color: #ffffffcc;
+    width: 320px;
+    margin: auto;
+
   }
 
   .banner-section {
     height: auto;
+    height: 300px;
   }
 
   .container {
